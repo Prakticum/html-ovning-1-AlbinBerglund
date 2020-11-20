@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML-grunder</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header id="header">
         <h1>HTML Grunder</h1>
-        <ul>
-           <li> <a href="index.html">Startsida</a></li>
-            <li><a href="dom.html">DOM</a></li>
-            <li><a href="vs-code.html">vs-code</a></li>
-        </ul>
+        <nav>
+            <ul>
+                <li> <a href="index.html">Startsida</a></li>
+                 <li><a href="dom.html">DOM</a></li>
+                 <li><a href="vs-code.html">vs-code</a></li>
+             </ul>
+        </nav>
+        
     </header>
     <main>
       <h2>Vad är HTML?</h2> 
@@ -25,10 +29,12 @@
        
        <p>HTML har kontinuerligt utvecklats, dels genom standardiseringsorganisationer, dels genom att tillverkare av webbläsare och webbservrar infört egna utvidgningar. Genom att man inte hållit sig till en gemensam standard är det vanligt att webbsidor inte helt fungerar med alla webbläsare.</p> 
     
-       <h2>Elementtyper&lt</h2><p>et finns fyra kategorier av elementtyper i HTML:</p>
+       <h2>Elementtyper</h2>
+       <p>et finns fyra kategorier av elementtyper i HTML:</p>
        
         <ul>
-            <li>Strukturmärken, som beskriver syftet med texten, till exempel <h1>Golf,</h1> som tolkas som högsta rubriknivå.</li>
+            <li>Strukturmärken, som beskriver syftet med texten, till exempel
+         <h3>Golf</h3> som tolkas som högsta rubriknivå.</li>
             <li>Presentationsmärkning, som beskriver textens stil, till exempel <b>fet text</b>, som resulterar i fet text. Många webbutvecklare har idag upptäckt fördelarna med att separera presentation och struktur så dessa taggar är oftast icke-rekommenderade att använda. Istället används så kallade stilmallar för att presentera data på sidan.</li>
             <li>Hyperlänkmärkningar, som länkar till ett dokument eller till en sektion i aktuellt dokument eller annat dokument, till exempel <a href="http://wikipedia.org">Wikipedia</a>, som skriver ut ordet Wikipedia med understrykning som standard. Vid aktivering av länken öppnar webbläsaren sidan http://wikipedia.org.</li>
             <li>Interaktiva element, som skapar interaktiva objekt, till exempel knappar och listor.</li>
